@@ -56,3 +56,30 @@ Homepage: https://minecraft.net/
 Description: Official Minecraft Launcher
 Copyright: All rights reserved
 
+Package: steam-launcher
+Source: steam
+Version: 1:1.0.0.78
+Architecture: all
+Maintainer: Valve Corporation <linux@steampowered.com>
+Installed-Size: 3918
+Pre-Depends: dpkg (>= 1.17.0)
+Depends: apt (>= 1.1), apt (>= 1.6) | apt-transport-https, ca-certificates, coreutils (>= 8.23-1~) | realpath, curl, file, libc6 (>= 2.15), libnss3 (>= 2:3.26), pkexec | policykit-1, python3 (>= 3.4), python3-apt, xterm | gnome-terminal | konsole, xz-utils, zenity
+Recommends: steam-libs-amd64, steam-libs-i386, sudo, xdg-utils | steamos-base-files
+Conflicts: steam-devices, steam-installer
+Breaks: steam64
+Replaces: steam, steam-devices, steam-installer, steam64
+Provides: steam, steam-devices, steam-installer
+Filename: ./steam-1:1.0.0.78.deb
+Size: 3822776
+MD5sum: b3fc3d54c48f67350f5901ba1469db30
+SHA1: 51418ce58c9bf8d73c8c6899498aff40bb091c46
+SHA256: 456c200c00f7cae57db06d2067fbdb1fa3727eb6744371827913c4cf82d507a0
+Section: games
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.steampowered.com/
+Description: Launcher for the Steam software distribution service
+ Steam is a software distribution service with an online store, automated
+ installation, automatic updates, achievements, SteamCloud synchronized
+ savegame and screenshot functionality, and many social features.
+
