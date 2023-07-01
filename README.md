@@ -1,1 +1,1 @@
-# kirports
+Hello. if you are reading this, this means you probably reached the repository link for the kirports Debian/Ubuntu repo. The repo is currently adding more packages, but we will be up soon and a handy dandy repo adder script will be released soon!
